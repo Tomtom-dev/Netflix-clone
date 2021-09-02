@@ -6,7 +6,9 @@ import { SeriesComponent } from './series/series.component';
 
 const routes: Routes = [
   {path:"", component : AppComponent },
-  {path:"films", component: FilmsComponent},
+  {path:"films", children :[
+    {path:"", component : FilmsComponent, pathMatch:"full"}
+  ]},
   {path:"series", component: SeriesComponent}
 ];
 
