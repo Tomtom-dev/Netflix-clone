@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Serie } from 'src/app/shared/modele/serie';
 
 @Component({
   selector: 'app-serie-card',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./serie-card.component.css']
 })
 export class SerieCardComponent implements OnInit {
+
+  @Input() serie!: Serie;
 
   constructor() { }
 
