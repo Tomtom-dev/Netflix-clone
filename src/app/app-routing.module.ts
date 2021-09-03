@@ -5,7 +5,7 @@ import { FilmsComponent } from './films/films.component';
 import { SeriesComponent } from './series/series.component';
 
 const routes: Routes = [
-  {path:"", component : AppComponent },
+  
   {path:"films", children :[
     {path:"", component : FilmsComponent, pathMatch:"full"}
   ]},

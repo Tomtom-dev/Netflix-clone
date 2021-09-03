@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FilmsComponent } from './films/films.component';
 import { SeriesComponent } from './series/series.component';
 import { FilmCardComponent } from './films/film-card/film-card.component';
+import { SerieCardComponent } from './series/serie-card/serie-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FilmCardComponent } from './films/film-card/film-card.component';
     NavbarComponent,
     FilmsComponent,
     SeriesComponent,
-    FilmCardComponent
+    FilmCardComponent,
+    SerieCardComponent
   ],
   imports: [
     BrowserModule,

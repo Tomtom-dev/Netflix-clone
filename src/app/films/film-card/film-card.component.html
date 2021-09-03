@@ -1,10 +1,11 @@
 <div class="card">
-    <p>show me the map</p>
     <div class="card-header">
         <div class="card-body">
             <ul>
-                <li>{{film.id}}</li>
-                <li>test</li>
+                <h3>{{film.title}}</h3>
+                <img src="https://image.tmdb.org/t/p/w500{{film.backdrop_path}}" alt="">
+                <p>{{film.overview}}</p>
+                <button class="btn btn-primary"> See more</button>
             </ul>
         </div>
         <div class="card-footer">

@@ -15,3 +15,17 @@ export interface Film {
     vote_count: number
 }
 
+export interface Global {
+    created_by:string,
+    description:string,
+    favorite_count:number,
+    id:string,
+    iso_639_1:string,
+    item_count:number,
+    items:Film[],
+    name:string
+}
+
+export interface answer {
+    data: Global;
+}
