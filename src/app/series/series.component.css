@@ -1,0 +1,15 @@
+.flex{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+h1{
+    width: 25vw;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}

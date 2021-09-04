@@ -1,6 +1,18 @@
+div .card-body ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
 .card{
     width: 35vw;
     display: flex;
+    display: flex;
     flex-direction: row;
     margin-bottom: 1em;
+}
+
+img{
+    width: 23vw;
+    height: 60vh;
 }
